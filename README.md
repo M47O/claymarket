@@ -6,7 +6,7 @@ Clay Market is a full-stack app created to serve as a consolidated marketplace w
 Listed products are for example's sake only. Payment processing isn't *fully* integrated just yet, so if you download this code and toy around with it, don't worry about accidentally purchasing something.
 
 <p align="center">
-<img src="claymarket.gif" alt="Demo of the Clay Market site">
+<img src="demo.gif" alt="Demo of the Clay Market site">
 </p>
 
 **Link to project:** *Coming soon!*
