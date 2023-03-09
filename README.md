@@ -1,6 +1,7 @@
 # Clay Market
 Clay Market is a full-stack app created to serve as a consolidated marketplace where select potters throughout Southern Virginia can easily sell their works at prices they set without having to deal with listing fees, transaction fees, promotional ads, or other hindrances.
-The app is currently being developed and is not fully operational yet. Listed products are for example's sake only.
+
+**The app is currently being developed and is not fully operational yet.** Listed products are for example's sake only. Payment processing isn't *fully* integrated just yet, so if you download this code and toy around with it, don't worry about accidentally purchasing something.
 
 <p align="center">
 <img src="claymarket.gif" alt="Demo of the Clay Market site">
