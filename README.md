@@ -20,8 +20,11 @@ The back end uses `Express` as the foundation for the server, `jsonwebtoken` for
 `bcrypt` is used to hash/salt user passwords before being stored in the database.
 
 The following libraries aren't prudent to the functionality of the app, but I'm listing them should you choose to recreate the app or in case you're curious:
+
 `colors` - Allows you to programatically color console logs on the server.
+
 `morgan` - Gives you basic logging for HTTP requests
+
 `concurrently` - Gives you the ability to run multiple commands concurrently (hehe) in one terminal. (e.g. run the back end and front end in one terminal with one script)
 
 ## Lessons Learned:
