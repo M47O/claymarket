@@ -1,0 +1,41 @@
+main {
+    min-height: 80vh;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    padding-block: 1rem 0;
+}
+
+.card-title {
+    min-height: 48px;
+}
+
+.card-body{
+    padding: 1rem 0;
+}
+
+.cart {
+    padding: 25px;
+    border: none;
+    border-radius: 23px;
+    box-shadow:  5px 5px 10px #e6e6e6,
+                -5px -5px 10px #f3f3f3;
+}
+
+.checkout {
+    margin-block: 25px;
+    width: 100%;
+}

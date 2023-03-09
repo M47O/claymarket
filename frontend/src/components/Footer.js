@@ -1,7 +1,15 @@
+import { Container, Row, Col } from 'react-bootstrap'
+
 function Footer() {
     return (
         <footer>
-            footer
+            <Container>
+                <Row>
+                    <Col className='text-center py-3'>
+                        Copyright &copy; Clay Market
+                    </Col>
+                </Row>
+            </Container>
         </footer>
     )
 }

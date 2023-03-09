@@ -1,0 +1,53 @@
+{
+  "name": "claymarket",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "MERN ecommerce app",
+  "main": "server.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "bcryptjs": "^2.4.3",
+    "classnames": "^2.3.2",
+    "colors": "^1.4.0",
+    "csstype": "^3.1.1",
+    "dequal": "^2.0.3",
+    "dom-helpers": "^5.2.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "invariant": "^2.2.4",
+    "js-tokens": "^4.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "loose-envify": "^1.4.0",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.8.1",
+    "prop-types-extra": "^1.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-is": "^16.13.1",
+    "react-lifecycles-compat": "^3.0.4",
+    "react-transition-group": "^4.4.5",
+    "regenerator-runtime": "^0.13.11",
+    "scheduler": "^0.23.0",
+    "tslib": "^2.5.0",
+    "uncontrollable": "^7.2.1",
+    "warning": "^4.0.3"
+  },
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d"
+  },
+  "author": "Mason Turner",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
