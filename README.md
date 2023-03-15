@@ -30,7 +30,7 @@ The following libraries aren't prudent to the functionality of the app, but I'm 
 
 My biggest takeaway so far is I never knew how convoluted Redux could get. 
 
-This is also my first time using JWTs, so I got to learn a bit about them. In the past, I just used stored session data in a database to protect routes behind auth.
+This is also my first time using JWTs, so I got to learn a bit about them. In past projects, I just used stored session data in a database + cookieparser to protect routes behind auth.
  
 I'll be sure to make an actual concrete list of things I've learned along the way when I've finished the project, but for now I just wanted to jot some thoughts down to help decompress after working on this and another project for ~14 hours a day, 5 days straight. (Not healthy! Don't do this!)
 
